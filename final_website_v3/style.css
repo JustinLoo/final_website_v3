@@ -240,11 +240,14 @@ body{
       font-size: 1rem;
       
     }
-
-
   }
 
 
+
+   section{
+
+    height: 100vh;
+   }
 
 
  

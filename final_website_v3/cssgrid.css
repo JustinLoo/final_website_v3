@@ -11,8 +11,7 @@
 .grid-item{
   
    
-    z-index: 9;
-
+  
 
 }
 
@@ -24,7 +23,7 @@
     background-color: 				#4b3c3c;
 
     grid-column: 2 / 6;
-    grid-row: 2/6;
+    grid-row: 2/5;
     background: rgba(0, 0, 0, 0.726);
     backdrop-filter: blur(0.2);
   
@@ -49,12 +48,23 @@
 
   
    
-    background-color: 				#585858;
-
-    grid-column: 4 / 11;
-    grid-row: 9/14;
+    background: rgba(0, 0, 0, 0.726);
     
-    z-index: 9;
+    grid-column: 5 / 11;
+    grid-row: 7/14;
+    
+    z-index: 10;
+
+
+}  
+
+@media only screen and (max-width: 600px) {
+
+    .grid-item-1{
+        grid-column: 2/10;
+
+
+    }
 
 
 }
