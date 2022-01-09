@@ -50,10 +50,12 @@
    
     background: rgba(0, 0, 0, 0.726);
     
-    grid-column: 5 / 11;
-    grid-row: 7/14;
     
-    z-index: 10;
+    grid-column: 4 / 11;
+    grid-row: 8/14;
+    color: white;
+    
+    z-index: 11;
 
 
 }  

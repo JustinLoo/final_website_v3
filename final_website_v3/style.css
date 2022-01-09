@@ -53,7 +53,7 @@ body{
   }
   
   body {
-    color: black;
+   
     background-color: white;
     margin: 0;
     padding: 0;
@@ -244,10 +244,7 @@ body{
 
 
 
-   section{
-
-    height: 100vh;
-   }
+   
 
 
  
