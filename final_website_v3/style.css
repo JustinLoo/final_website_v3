@@ -44,12 +44,7 @@ body{
 
 :root {
   
-    font-family: 'Open Sans';
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #202020;
-    --bg-secondary: #202020;
-    --transition-speed: 600ms;
+   
   }
   
   body {

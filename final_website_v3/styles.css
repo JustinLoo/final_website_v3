@@ -36,7 +36,7 @@ canvas {
   .text-box {
     font-size: 1.5em;
     text-align: center;
-    font-family: 'Baloo 2', cursive;
+   
     letter-spacing: 10px;
     word-spacing: 5px;
     text-transform: uppercase;
@@ -57,7 +57,7 @@ canvas {
   font-family: 'Baloo 2', cursive;
  
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   padding: 15px;
   margin-left:20px;
