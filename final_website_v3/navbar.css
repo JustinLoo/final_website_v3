@@ -39,6 +39,7 @@
   padding: 10px 0;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
+
 .navbar .content{
   display: flex;
   align-items: center;
@@ -99,7 +100,7 @@
   display: none;
 }
 .menu-list .cancel-btn{
-  position: absolute;
+  position: absolute; 
   right: 30px;
   top: 20px;
 }
@@ -131,6 +132,7 @@
   .navbar .menu-list{
     background: -webkit-linear-gradient(rgb(255, 255, 255), #000000);
     -webkit-background-clip: text;
+  
     -webkit-text-fill-color: none;
     z-index: 16;
     position: fixed;
@@ -142,7 +144,8 @@
     display: block;
     padding: 40px 0;
     text-align: center;
-    background: #222;
+    background: radial-gradient(ellipse at bottom, #383838 0%,  #000000 100%);
+   
     transition: all 0.3s ease;
   }
   .navbar.show .menu-list{
