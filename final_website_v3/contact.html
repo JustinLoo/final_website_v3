@@ -32,7 +32,7 @@
 
    
 
-    <link rel="stylesheet" type="text/css" href="cssgrid.css" />
+    <link rel="stylesheet" type="text/css" href="cssgrid3.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="download.png">
     <title>Justin Loo's Website</title> 
@@ -110,7 +110,7 @@
     
 
     <video autoplay muted loop id="myVideo">
-      <source src="spacebg/2k x 2k.mp4" type="video/mp4">
+      <source src="spacebg/1080p.mp4" type="video/mp4">
     </video>
 
   
@@ -119,13 +119,17 @@
 
     <main>
 
+        <div class = "grid-container">
+        
+
+
      
 
 
       
 
 
-        <div class = "grid-container">
+      
 
 
 
@@ -142,13 +146,29 @@
             </div>
          </div>
 
+         <div class = "grid-item grid-item-1" data-aos="flip-up" data-aos-duration = "2000">
+          <form class = "formspree" data-aos="flip-down"
+          action="https://formspree.io/f/xbjqzvdw"
+          method="POST"
+        >
+          <label>
+            Your email: <br>  
+            <input class = "textbox" type="email" name="_replyto" style = "margin-bottom: 30px;">
+          </label>
+          <br>
+          <label>
+            Your message: <br>  
+            <textarea style = "resize: none; width: 300px; height: 200px;" class = "textbox" name="message" type = "email"></textarea>
+          </label>
+          <br>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
+        </form>
+          
+            
+          
+            
          
-
-          <div class = "grid-item grid-item-1" data-aos="zoom-in-down" data-aos-duration = "2000">
-            <h1 class = "title" contenteditable="true">Welcome!</h1>
-           
-            
-         
             
 
             
@@ -157,42 +177,18 @@
           </div>
 
 
-
-      
-
-          <div class = "grid-item grid-item-2">
-            
-          
-
-          
-          </div>
-
-
-
-      
-      
-            
-
-      
-
-            
-      
-          
-
-        
-
-          
-
-          
-
-          <div class = "grid-item grid-item-3">
-            
-          </div>
-
-    
+         <!-- modify this form HTML and place wherever you want your form -->
 
 
         </div>
+      
+
+         
+
+          
+
+    
+
 
       
 
@@ -216,7 +212,7 @@
 
    
 
-    <script type = "module" src="./main.js"></script>
+   
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
